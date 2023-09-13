@@ -1,0 +1,23 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500;600&display=swap");
+* {
+  font-family: "Vazirmatn", sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: #fdfdfd;
+  box-shadow:  0 0 10px blue;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: blue;
+  outline: 1px solid white;
+  border-radius: 40px;
+}
+a {
+  text-decoration: none;
+}
