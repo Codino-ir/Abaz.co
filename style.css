@@ -46,6 +46,7 @@ li {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 .nav-item .nav-link {
   transition: all ease 0.6s;
@@ -84,4 +85,29 @@ main {
   align-items: center;
   justify-content: center;
   color: #fdfdfd;
+}
+/* section7 */
+.accordion-button:not(.collapsed) {
+  font-weight: bold;
+  color: var(--text);
+  background-color: #fdfdfd;
+  border-radius: 10px !important;
+  outline: none !important;
+}
+/* hover box */
+.hover-box {
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
+.hover-box:hover {
+  transform: scale(0.95);
+}
+/* footer */
+.item-footer {
+  transition: all ease 0.4s;
+  border-radius: 50px !important;
+}
+.item-footer:hover {
+  background-color: white;
+  color: #0087ff;
 }

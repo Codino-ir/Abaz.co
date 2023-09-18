@@ -7,6 +7,9 @@
   main {
     margin-top: 100px !important ;
   }
+  .about{
+    border-radius: 10px !important;
+  }
   .caption-s1 {
     position: relative;
     transform: translateY(0%) !important;
